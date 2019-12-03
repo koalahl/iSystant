@@ -811,7 +811,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite";
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-dev";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -836,7 +836,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite";
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-dev";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
