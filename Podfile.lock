@@ -1,0 +1,47 @@
+PODS:
+  - AAChartKit (4.0.0)
+  - AppCenter (2.5.1):
+    - AppCenter/Analytics (= 2.5.1)
+    - AppCenter/Crashes (= 2.5.1)
+  - AppCenter/Analytics (2.5.1):
+    - AppCenter/Core
+  - AppCenter/Core (2.5.1)
+  - AppCenter/Crashes (2.5.1):
+    - AppCenter/Core
+  - DKNightVersion (2.4.3):
+    - DKNightVersion/Core (= 2.4.3)
+    - DKNightVersion/CoreAnimation (= 2.4.3)
+    - DKNightVersion/UIKit (= 2.4.3)
+  - DKNightVersion/Core (2.4.3):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.3)
+    - DKNightVersion/Core/extobjc (= 2.4.3)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.3)
+  - DKNightVersion/Core/extobjc (2.4.3)
+  - DKNightVersion/CoreAnimation (2.4.3):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.3):
+    - DKNightVersion/Core
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AAChartKit
+  - AppCenter
+  - DKNightVersion
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AAChartKit
+    - AppCenter
+    - DKNightVersion
+    - Masonry
+
+SPEC CHECKSUMS:
+  AAChartKit: a62caf524117fcf19e7c8b4f10acbf58dcb08359
+  AppCenter: fddcbac6e4baae3d93a196ceb0bfe0e4ce407dec
+  DKNightVersion: eaa80cc4014b4bae7d4b535fd87ecc6a3c2767b3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 50aad91d1fc3191320153010405c5d6333d18548
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  iSystant Lite
+//
+//  Created by HanLiu on 2019/11/4.
+//  Copyright © 2019 iSystant. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry/Masonry.h>
+#import <DKNightVersion/DKNightVersion.h>
+#import "HLSystemMonitor.h"
+
+#import "HLMacros.h"
+#import "UIColor+Extension.h"
+#import "UIView+Extension.h"
+#import "UIViewController+Extension.h"
+#import "CALayer+Extension.h"
+
+#import "HLDetailTableViewCell.h"
+#import "HLBaseTableViewCell.h"
+#import "HLBaseNavViewController.h"
+#import "HLBaseViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <AppCenter/AppCenter.h>
+#import <AppCenterCrashes/AppCenterCrashes.h>
+#import <AppCenterAnalytics/AppCenterAnalytics.h>
+
+#endif /* PrefixHeader_pch */

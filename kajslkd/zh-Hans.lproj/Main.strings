@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "2oU-FN-w2y"; */
+"2oU-FN-w2y.text" = "100%";
+
+/* Class = "UILabel"; text = "@Levihan"; ObjectID = "4ZM-Ue-KBQ"; */
+"4ZM-Ue-KBQ.text" = "@Levihan";
+
+/* Class = "UILabel"; text = "📌 微博"; ObjectID = "DaI-NH-Umb"; */
+"DaI-NH-Umb.text" = "📌 微博";
+
+/* Class = "UILabel"; text = "🌗夜间模式"; ObjectID = "G2E-uX-Xls"; */
+"G2E-uX-Xls.text" = "🌗夜间模式";
+
+/* Class = "UILabel"; text = "🔋设置电池健康度"; ObjectID = "LzO-tR-KSS"; */
+"LzO-tR-KSS.text" = "🔋设置电池健康度";
+
+/* Class = "UILabel"; text = "💡 隐私条例"; ObjectID = "Qg1-d8-cVD"; */
+"Qg1-d8-cVD.text" = "💡 隐私条例";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "aC6-T5-ORs"; */
+"aC6-T5-ORs.title" = " ";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "c2i-sV-fR1"; */
+"c2i-sV-fR1.text" = "1.0.0";
+
+/* Class = "UITableViewSection"; headerTitle = "关于"; ObjectID = "fos-tD-5xN"; */
+"fos-tD-5xN.headerTitle" = "关于";
+
+/* Class = "UILabel"; text = "✨ 点个赞呗"; ObjectID = "hZY-b1-aYE"; */
+"hZY-b1-aYE.text" = "✨ 点个赞呗";
+
+/* Class = "UILabel"; text = "📮 意见反馈"; ObjectID = "l0y-hZ-7Na"; */
+"l0y-hZ-7Na.text" = "📮 意见反馈";
+
+/* Class = "UILabel"; text = "@寒先生的江雪"; ObjectID = "len-zf-6cY"; */
+"len-zf-6cY.text" = "@寒先生的江雪";
+
+/* Class = "UITextView"; text = "隐私政策:\n\n本应用不会收集任何用户个人信息，请放心使用。\n\n另外在未征得您事先许可的情况下，本应用不会将获取到的设备信息对外披露或向第三方提供。\n\n本应用会不时更新本隐私权政策。 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n\n本隐私权政策属于本应用服务使用协议不可分割的一部分。"; ObjectID = "m4y-Ve-JNK"; */
+"m4y-Ve-JNK.text" = "隐私政策:\n\n本应用不会收集任何用户个人信息，请放心使用。\n\n另外在未征得您事先许可的情况下，本应用不会将获取到的设备信息对外披露或向第三方提供。\n\n本应用会不时更新本隐私权政策。 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n\n本隐私权政策属于本应用服务使用协议不可分割的一部分。";
+
+/* Class = "UILabel"; text = "🍒 分享最美"; ObjectID = "mN8-Xv-YSz"; */
+"mN8-Xv-YSz.text" = "🍒 分享最美";
+
+/* Class = "UITableViewSection"; headerTitle = "功能"; ObjectID = "mwj-Hb-QKv"; */
+"mwj-Hb-QKv.headerTitle" = "功能";
+
+/* Class = "UITableViewSection"; headerTitle = "独立开发者Levi作品with❤️"; ObjectID = "oCz-nu-yTo"; */
+"oCz-nu-yTo.headerTitle" = "独立开发者Levi作品with❤️";
+
+/* Class = "UITableViewSection"; headerTitle = "开发者"; ObjectID = "peO-HK-BTY"; */
+"peO-HK-BTY.headerTitle" = "开发者";
+
+/* Class = "UILabel"; text = "🍎 应用版本"; ObjectID = "qUB-wA-bb4"; */
+"qUB-wA-bb4.text" = "🍎 应用版本";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "qxE-Tc-DSq"; */
+"qxE-Tc-DSq.title" = "设置";
+
+/* Class = "UILabel"; text = "🐦 Twitter"; ObjectID = "v1V-bm-w4C"; */
+"v1V-bm-w4C.text" = "🐦 Twitter";

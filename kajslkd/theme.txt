@@ -1,0 +1,7 @@
+NORMAL   NIGHT
+#ffffff  #343434  BG
+#aaaaaa  #313131  SEP
+#0000ff  #ffffff  TINT
+#000000  #ffffff  TEXT
+#ffffff  #444444  BAR
+#f0f0f0  #222222  HIGHLIGHTED

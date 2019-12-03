@@ -1,0 +1,171 @@
+/* 
+  Localizable.strings
+  kajslkd
+
+  Created by HanLiu on 2019/11/26.
+  Copyright © 2019 iSystant. All rights reserved.
+*/
+"AppName" = "iSystant Pro-CPU内存网络流量监测";
+"Welcome" = "你好";
+
+"core" = "核";
+"day" = "天";
+"hour" = "小时";
+"min" = "分钟";
+"Compass" = "指南针";
+"Protractor" = "量角器";
+"Decibel"  = "分贝仪";
+"Speed Test"  = "网速测试";
+"Level" = "水平仪";
+"Suspension" = "悬挂物矫正";
+"Rule" = "尺子";
+"Shortcuts" = "捷径社区";
+
+
+"China Unicom" = "中国联通";
+"China Mobile" = "中国移动";
+"China Telecom" = "中国电信";
+"No Carrier" = "无运营商";
+
+"noWIFIConnection" = "未连接到WIFI";
+
+"feedback" = "用户反馈";
+"feedbackBodyTitle" = "我的反馈";
+"AppVersion" = "App版本";
+
+"Privacy" = "隐私政策";
+"Agree" = "同意";
+"Disagree" = "不同意";
+"PrivacyContent" = "本应用不会收集任何用户个人信息，请放心使用。\n另外在未征得您事先许可的情况下，本应用不会将获取到的设备信息对外披露或向第三方提供。本应用会不时更新本隐私权政策。\n 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n本隐私权政策属于本应用服务使用协议不可分割的一部分。";
+
+
+"latitude" = "纬度";
+"longitude" = "经度";
+"East" = "东";
+"West" = "西";
+"South"= "南";
+"North" = "北";
+"OpenCamera" = "打开相机";
+"Long" = "长度";
+"Back" = "返回";
+"startTest" = "开始测速";
+"Continue" = "继续";
+"Warmly Attention" = "温馨提示";
+"NetTestContent" = "当前是移动网络，测速可能会消耗较多流量，是否继续测速";
+"Netwaiting" = "正在检测网络,请稍后";
+"noiseSize" = "当前噪音/单位";
+"CPU Usage" = "CPU使用率";
+"App CPU Usage" = "应用CPU使用率";
+
+"Loading" = "正在请求...";
+"Transacting" ="正在交易，请不要退出应用...";
+"Transaction Fail" = "好可惜，交易失败了...";
+"Verifing" = "准备验证...";
+"Verify fail" = "验证失败";
+"Transaction Cancel" = "好可惜，取消了...";
+
+"Transcation Error" = "不可用，交易终止";//"Oops,Something error"
+"Transcation Success" = "交易成功，感谢您的支持和厚爱";
+
+"Unknow" = "未知";
+
+"Camera Locked" = "拍照锁定";
+"Retake" = "重拍";
+"MaxNoiseValue" = "最大值";
+"AveNoiseValue" = "平均值";
+"Save" = "保存";
+"Default" = "默认";
+"Widget Style" = "通知栏Widget样式";
+"Real Remain" = "剩余电量";
+"RAM:Used" = "内存:已用";
+"Disk:Used" = "存储:已用";
+"CPU Freq" = "CPU频率";
+
+"Cancel" = "取消";
+"Confirm" = "确定";
+"Set Battery Heath"  = "设置电池健康度";
+"Set Battery Heath Context"  = "电池健康度可以从设置->电池->电池健康度查看\n只需填写数字，如90";
+
+
+//===========首页==================//
+"Storage" = "存储";
+"Memory"  = "内存";
+"Network" = "网络";
+"Battery" = "电池";
+"Device"  = "设备";
+
+//===========设备=============//
+"Device Name"   = "设备名称";
+"Device Type"   = "设备类型";
+"Device Model"  = "型号";
+"Device Name"   = "设备名称";
+"Build Version" = "构建版本";
+"OS Version"    = "系统版本";
+"TimeZone"      = "时区";
+"Reboot Date"   = "启动时间";
+"SystemUpTime"  = "连续运行时间";
+"Pixels"        = "屏幕像素";
+"Height"        = "屏幕高度";
+"Width"         = "屏幕宽度";
+"PPI"           = "像素密度";
+"System Language" = "系统语言";
+"System"        = "基本信息";
+"Screen"        = "屏幕";
+"Others"        = "其它信息";
+
+//=========cpu========//
+"Model"     = "型号";
+"Arch"      = "架构";
+"Cores"     = "核心数";
+"L1Cache"   = "L1缓存";
+"L2Cache"   = "L2缓存";
+"L3Cache"   = "L3缓存";
+"SoC"       = "芯片组";
+"GPU Model" = "GPU型号";
+"GPU Cores" = "GPU核心";
+"GPU Metal" = "GPU图形跑分";
+"Clock Frequency"   = "时钟频率";
+"CPU Single Core"   = "CPU单核跑分";
+"CPU Multi Core"    = "CPU多核跑分";
+"Motion Processor"  = "协处理器";
+"CPU Basic Info"    = "基本信息";
+"BEENCHMARK"        = "BEENCHMARK评测分数";
+
+//========内存=========//
+"Memory Type"       = "内存型号";
+"Read/Write Freq"   = "读写频率";
+"Total Memory"      = "系统总内存";
+"Idle"              = "空闲内存";
+"Inactive"          = "不活跃内存";
+"Active"            = "活跃内存";
+"Wired"             = "联动内存";
+"App Used"          = "App使用内存";
+"Other Memory"      = "其它内存";
+"Memory Info"       = "内存基本信息";
+"Aval. Memory"      = "可用内存";
+"Used. Memory"      = "已用内存";
+
+
+//========网络=========//
+"Carrier Name" = "网络运营商";
+"Network Type" = "网络类型";
+"Public IP"    = "IP地址";
+"Internal IP"  = "局域网IP地址";
+"WIFI Name"    = "WIFI名称";
+"DNS"          = "域名解析服务器";
+"Uplink Cell Data"   = "上行蜂窝数据";
+"Downlink Cell Data" = "下行蜂窝数据";
+"Uplink WIFI"   = "WIFI上行数据";
+"Downlink WIFI" = "WIFI下行数据";
+"WIFI MAC Address" = "WIFI地址";
+"Uplink Speed" = "上行速率";
+"Downlink Speed" = "下行速率";
+"Network Basic Info" = "基本信息";
+"RealTime Net Speed" = "实时网速";
+"Network Flow" = "数据流量";
+
+//===========//
+"UnKnow"    = "未知";
+"Unplugged" = "未充电";
+"Charging"  = "充电中";
+"Full"      = "已充满";

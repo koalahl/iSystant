@@ -1,0 +1,85 @@
+/* 
+  Localizable.strings
+  kajslkd
+
+  Created by HanLiu on 2019/11/26.
+  Copyright © 2019 iSystant. All rights reserved.
+*/
+
+"AppName" = "iSystant Pro-System Monitor";
+
+"welcome" = "Hi";
+
+"cores" = "cores";
+"day" = "days";
+"hour" = "hours";
+"min" = "mins";
+
+"Compass" = "Compass";
+"Protractor" = "Protractor";
+"Decibel"  = "Decibel Meter";
+"Speed Test"  = "Speed Test";
+"Level" = "Level";
+"Suspension" = "Suspension correction";
+"Rule" = "Rule";
+"Shortcuts" = "Shortcuts";
+
+"FreeMemory" = "Free";
+"InactiveMemory" = "Inactive";
+"ActiveMemory" = "Active";
+"WiredMemory" = "Wired";
+"AppUsedMemory" = "App Used";
+"TotalMemory" = "Total";
+"OtherMemory" = "Other";
+
+"noWIFIConnection" = "No WiFi";
+
+"feedback" = "Feedback";
+"feedbackBodyTitle" = "My Issue:";
+"feedbackSystemVersion" = "System version";
+"AppVersion" = "App version";
+
+"Privacy" = "Privacy";
+"Agree" = "Agree";
+"Disagree" = "Disagree";
+"PrivacyContent" = "This application will not collect any user's personal information, please feel free to use. \nTn addition, the application will not disclose or provide the obtained device information to any third party without your prior permission. \nThis application will update this privacy policy from time to time. When you agree to use this application service agreement, you are deemed to have agreed to all contents of this privacy policy. \nThis privacy policy is an integral part of this application service usage agreement.";
+
+"latitude" = "latitude";
+"longitude" = "longitude";
+"East" = "East";
+"West" = "West";
+"South"= "South";
+"North" = "North";
+
+"OpenCamera" = "Open Camera";
+"Long" = "Distance";
+"Back" = "Back";
+"startTest" = "Start Test";
+"Continue" = "Continue";
+"Warmly Attention" = "Warmly Attention";
+"NetTestContent" = "The current mobile network, speed measurement may consume more traffic, whether to continue speed measurement";
+"Netwaiting" = "Network is being detected, please wait";
+
+
+"Loading" = "Sending Request..";
+"Transacting" ="Transacting，Pleace don't leave...";
+"Transaction Fail" = "Well it's a pity...";
+"Verifing" = "Prepare verification...";
+"Verify fail" = "Verification fail";
+"Transaction Cancel" = "Well it's a pity...";
+
+"Transcation Error" = "Oops,Something error!";
+"Transcation Success" = "Success，Thanks for your big support!";
+
+"Unknow" = "Unknow";
+
+"Camera Locked" = "CAM LOCKED";
+"Retake" = "RETAKE";
+
+"MaxNoiseValue" = "Max";
+"AveNoiseValue" = "Ave";
+
+"Save" = "Save";
+"Rest Battery" = "Rest Batt.";
+"Set Battery Heath"  = "Set Battery Heath";
+"Set Battery Heath Context"  = "Battery Heath can be found in Setting->Battery->Battery Heath\nJust fill number like 90";

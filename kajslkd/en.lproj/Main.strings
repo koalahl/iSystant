@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "2oU-FN-w2y"; */
+"2oU-FN-w2y.text" = "100%";
+
+/* Class = "UILabel"; text = "@Levihan"; ObjectID = "4ZM-Ue-KBQ"; */
+"4ZM-Ue-KBQ.text" = "@Levihan";
+
+/* Class = "UILabel"; text = "📌 Weibo"; ObjectID = "DaI-NH-Umb"; */
+"DaI-NH-Umb.text" = "📌 Weibo";
+
+/* Class = "UILabel"; text = "🌗Night Mode"; ObjectID = "G2E-uX-Xls"; */
+"G2E-uX-Xls.text" = "🌗Night Mode";
+
+/* Class = "UILabel"; text = "🔋Set Battery Heathy"; ObjectID = "LzO-tR-KSS"; */
+"LzO-tR-KSS.text" = "🔋Set Battery Heathy";
+
+/* Class = "UILabel"; text = "💡 Privacy"; ObjectID = "Qg1-d8-cVD"; */
+"Qg1-d8-cVD.text" = "💡 Privacy";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "aC6-T5-ORs"; */
+"aC6-T5-ORs.title" = " ";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "c2i-sV-fR1"; */
+"c2i-sV-fR1.text" = "1.0.0";
+
+/* Class = "UITableViewSection"; headerTitle = "关于"; ObjectID = "fos-tD-5xN"; */
+"fos-tD-5xN.headerTitle" = "About Us";
+
+/* Class = "UILabel"; text = "✨ Rate US"; ObjectID = "hZY-b1-aYE"; */
+"hZY-b1-aYE.text" = "✨ Rate Us";
+
+/* Class = "UILabel"; text = "📮 Feedback"; ObjectID = "l0y-hZ-7Na"; */
+"l0y-hZ-7Na.text" = "📮 Feedback";
+
+/* Class = "UILabel"; text = "@寒先生的江雪"; ObjectID = "len-zf-6cY"; */
+"len-zf-6cY.text" = "@寒先生的江雪";
+
+/* Class = "UITextView"; text = "隐私政策:\n\n本应用不会收集任何用户个人信息，请放心使用。\n\n另外在未征得您事先许可的情况下，本应用不会将获取到的设备信息对外披露或向第三方提供。\n\n本应用会不时更新本隐私权政策。 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。\n\n本隐私权政策属于本应用服务使用协议不可分割的一部分。"; ObjectID = "m4y-Ve-JNK"; */
+"m4y-Ve-JNK.text" = "This application will not collect any user's personal information, please feel free to use. \nIn addition, the application will not disclose or provide the obtained device information to any third party without your prior permission. \nThis application will update this privacy policy from time to time. When you agree to use this application service agreement, you are deemed to have agreed to all contents of this privacy policy. \nThis privacy policy is an integral part of this application service usage agreement.";
+
+/* Class = "UILabel"; text = "🍒 Share With US"; ObjectID = "mN8-Xv-YSz"; */
+"mN8-Xv-YSz.text" = "🍒 Share With Us";
+
+/* Class = "UITableViewSection"; headerTitle = "功能"; ObjectID = "mwj-Hb-QKv"; */
+"mwj-Hb-QKv.headerTitle" = "Feature";
+
+/* Class = "UITableViewSection"; headerTitle = "Indie Developer - Levi with❤️"; ObjectID = "oCz-nu-yTo"; */
+"oCz-nu-yTo.headerTitle" = "Indie Developer - Levi with❤️";
+
+/* Class = "UITableViewSection"; headerTitle = "开发者"; ObjectID = "peO-HK-BTY"; */
+"peO-HK-BTY.headerTitle" = "Contact";
+
+/* Class = "UILabel"; text = "🍎 App Version"; ObjectID = "qUB-wA-bb4"; */
+"qUB-wA-bb4.text" = "🍎 App Version";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "qxE-Tc-DSq"; */
+"qxE-Tc-DSq.title" = "Setting";
+
+/* Class = "UILabel"; text = "🐦 Twitter"; ObjectID = "v1V-bm-w4C"; */
+"v1V-bm-w4C.text" = "🐦 Twitter";
