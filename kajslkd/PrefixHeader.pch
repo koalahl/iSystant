@@ -11,7 +11,7 @@
 
 #import <Masonry/Masonry.h>
 #import <DKNightVersion/DKNightVersion.h>
-#import "HLSystemMonitor.h"
+#import <iSystantMonitorFramework/iSystantMonitorFramework.h>
 
 #import "HLMacros.h"
 #import "UIColor+Extension.h"

@@ -358,14 +358,13 @@ static HLNetworkMonitor* instance = nil;
              return [self _getWIFIName];
              
          } else if (CLLocationManager.authorizationStatus == kCLAuthorizationStatusDenied) {//如果用户没给权限，则提示
-             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"定位权限关闭提示" message:@"你关闭了定位权限，导致无法使用WIFI功能" preferredStyle:UIAlertControllerStyleAlert];
-             [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
-             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
+//             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"定位权限关闭提示" message:@"你关闭了定位权限，导致无法使用WIFI功能" preferredStyle:UIAlertControllerStyleAlert];
+//             [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
+//             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
              
          } else {//请求权限
              [self.locationMagager requestWhenInUseAuthorization];
          }
-         
     }
     
     return [self _getWIFIName];

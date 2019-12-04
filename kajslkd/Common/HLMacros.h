@@ -81,7 +81,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #define HLLocalized(key) [NSBundle.mainBundle localizedStringForKey:(key) value:(key) table:nil]
 
-#define UserDefaultSuite [[NSUserDefaults alloc] initWithSuiteName:@"levi.isystant.iSystant-Lite"]
+#define UserDefaultSuite [[NSUserDefaults alloc] initWithSuiteName:@"group.com.hl1987.app.isystant-lite"]
 
 //#endif    // #if (TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR)
 

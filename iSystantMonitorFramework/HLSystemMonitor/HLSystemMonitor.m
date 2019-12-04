@@ -33,12 +33,11 @@
     NSString *deviceName = [HLDeviceInformation getDeviceName];
     //    deviceName = @"iPhone X";
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"devices" ofType:@"json"];
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"devices" ofType:@"json" inDirectory:@"/Frameworks/HLSystemMonitor.a"];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"devices" ofType:@"json"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"devices" ofType:@"json" inDirectory:@"/Frameworks/iSystantMonitorFramework.framework"];
     if ([[NSFileManager defaultManager] fileExistsAtPath:path]) {
         NSData *data = [NSData dataWithContentsOfFile:path];
         //放到framework里面，变成数组了？？？原来是字典呀
-//        NSDictionary *devices = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
         NSDictionary *devices = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
         if ([devices objectForKey:deviceName]) {
             [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:deviceName];

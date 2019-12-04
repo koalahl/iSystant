@@ -3,11 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		066276132A33D14F902D361E /* libPods-kajslkd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C6CC828990E92AF28DDFE8 /* libPods-kajslkd.a */; };
+		1E0687362398069E00594917 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0687352398069E00594917 /* NotificationCenter.framework */; };
+		1E06873A2398069E00594917 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687392398069E00594917 /* TodayViewController.m */; };
+		1E06873D2398069E00594917 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E06873B2398069E00594917 /* MainInterface.storyboard */; };
+		1E0687412398069E00594917 /* iSystant Lite.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1E0687342398069D00594917 /* iSystant Lite.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1E06875723980C9D00594917 /* iSystantMonitorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */; };
+		1E06875E23980C9D00594917 /* iSystantMonitorFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06875D23980C9D00594917 /* iSystantMonitorFrameworkTests.m */; };
+		1E06876023980C9D00594917 /* iSystantMonitorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E06875023980C9D00594917 /* iSystantMonitorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E06876323980C9D00594917 /* iSystantMonitorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */; };
+		1E06876423980C9D00594917 /* iSystantMonitorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E06878D23980CE200594917 /* iSystantMonitorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */; };
+		1E06878E23980CE200594917 /* iSystantMonitorFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E06879223980D2600594917 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE55238C27F400255D53 /* libresolv.tbd */; };
+		1E06879323980D2F00594917 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE57238C280000255D53 /* libSystem.tbd */; };
+		1E06879423980D4100594917 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE5B238C280F00255D53 /* SystemConfiguration.framework */; };
+		1E06879623980E3600594917 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE53238C27EC00255D53 /* CoreLocation.framework */; };
+		1E06879723980E6F00594917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE59238C280900255D53 /* UIKit.framework */; platformFilter = ios; };
+		1E0687F12398127300594917 /* HLSystemMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687DE2398127200594917 /* HLSystemMonitor.m */; };
+		1E0687F22398127300594917 /* HLDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687E02398127200594917 /* HLDeviceInformation.m */; };
+		1E0687F32398127300594917 /* HLDeviceInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687E12398127200594917 /* HLDeviceInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687F42398127300594917 /* HLMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687E32398127200594917 /* HLMemoryMonitor.m */; };
+		1E0687F52398127300594917 /* HLMemoryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687E42398127200594917 /* HLMemoryMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687F62398127300594917 /* HLBatteryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687E62398127200594917 /* HLBatteryMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687F72398127300594917 /* HLBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687E72398127200594917 /* HLBatteryMonitor.m */; };
+		1E0687F82398127300594917 /* HLSystemMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687E82398127200594917 /* HLSystemMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687F92398127300594917 /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E0687E92398127200594917 /* devices.json */; };
+		1E0687FA2398127300594917 /* cpuFreq.s in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687EB2398127200594917 /* cpuFreq.s */; };
+		1E0687FB2398127300594917 /* HLCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687EC2398127200594917 /* HLCPUMonitor.m */; };
+		1E0687FC2398127300594917 /* HLCPUMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687ED2398127200594917 /* HLCPUMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687FD2398127300594917 /* HLNetworkMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687EF2398127200594917 /* HLNetworkMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0687FE2398127300594917 /* HLNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0687F02398127200594917 /* HLNetworkMonitor.m */; };
+		1E0687FF2398129700594917 /* HLSystemMonitor.m in Headers */ = {isa = PBXBuildFile; fileRef = 1E0687DE2398127200594917 /* HLSystemMonitor.m */; };
 		1E0F65AC238D78E600666CCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E0F65AE238D78E600666CCA /* Localizable.strings */; };
 		1E29E8FC238A4BC3004361BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E29E8FB238A4BC3004361BC /* AppDelegate.m */; };
 		1E29E905238A4BC3004361BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E29E903238A4BC3004361BC /* Main.storyboard */; };
@@ -23,14 +54,6 @@
 		1EFD7AE0238C29DA0072CE6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFD7ADF238C29DA0072CE6C /* SystemConfiguration.framework */; };
 		1EFD7AE1238C29E30072CE6C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CDE5F238C285800255D53 /* MessageUI.framework */; };
 		1EFD7AE4238C2B2D0072CE6C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AE2238C2B2D0072CE6C /* SceneDelegate.m */; };
-		1EFD7AF9238C2C200072CE6C /* HLSystemMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AE6238C2C200072CE6C /* HLSystemMonitor.m */; };
-		1EFD7AFA238C2C200072CE6C /* HLDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AE8238C2C200072CE6C /* HLDeviceInformation.m */; };
-		1EFD7AFB238C2C200072CE6C /* HLMemoryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AEB238C2C200072CE6C /* HLMemoryMonitor.m */; };
-		1EFD7AFC238C2C200072CE6C /* HLBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AEF238C2C200072CE6C /* HLBatteryMonitor.m */; };
-		1EFD7AFD238C2C200072CE6C /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD7AF1238C2C200072CE6C /* devices.json */; };
-		1EFD7AFE238C2C200072CE6C /* cpuFreq.s in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AF3238C2C200072CE6C /* cpuFreq.s */; };
-		1EFD7AFF238C2C200072CE6C /* HLCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AF4238C2C200072CE6C /* HLCPUMonitor.m */; };
-		1EFD7B00238C2C200072CE6C /* HLNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7AF8238C2C200072CE6C /* HLNetworkMonitor.m */; };
 		1EFD7B48238C2DFE0072CE6C /* HLFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7B04238C2DFE0072CE6C /* HLFeedback.m */; };
 		1EFD7B49238C2DFE0072CE6C /* HLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7B07238C2DFE0072CE6C /* HLLabel.m */; };
 		1EFD7B4A238C2DFE0072CE6C /* HLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7B09238C2DFE0072CE6C /* HLProgressView.m */; };
@@ -62,13 +85,74 @@
 		1EFD7B64238C2DFE0072CE6C /* HLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD7B47238C2DFE0072CE6C /* HLTabBarController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1E06873F2398069E00594917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E8EF238A4BC3004361BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0687332398069D00594917;
+			remoteInfo = sysmonitorTodayExt;
+		};
+		1E06875823980C9D00594917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E8EF238A4BC3004361BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E06874D23980C9D00594917;
+			remoteInfo = iSystantMonitorFramework;
+		};
+		1E06875A23980C9D00594917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E8EF238A4BC3004361BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E29E8F6238A4BC3004361BC;
+			remoteInfo = kajslkd;
+		};
+		1E06876123980C9D00594917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E8EF238A4BC3004361BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E06874D23980C9D00594917;
+			remoteInfo = iSystantMonitorFramework;
+		};
+		1E06878F23980CE200594917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E29E8EF238A4BC3004361BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E06874D23980C9D00594917;
+			remoteInfo = iSystantMonitorFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		1E0687422398069E00594917 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1E0687412398069E00594917 /* iSystant Lite.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06879123980CE200594917 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1E06878E23980CE200594917 /* iSystantMonitorFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1E8CDE21238C233400255D53 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1E06876423980C9D00594917 /* iSystantMonitorFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +160,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E0687342398069D00594917 /* iSystant Lite.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iSystant Lite.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0687352398069E00594917 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		1E0687382398069E00594917 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		1E0687392398069E00594917 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		1E06873C2398069E00594917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1E06873E2398069E00594917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E06874723980A5800594917 /* iSystant LiteDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iSystant LiteDebug.entitlements"; sourceTree = "<group>"; };
+		1E06874823980ACB00594917 /* iSystant LiteDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iSystant LiteDebug.entitlements"; sourceTree = "<group>"; };
+		1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iSystantMonitorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E06875023980C9D00594917 /* iSystantMonitorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iSystantMonitorFramework.h; sourceTree = "<group>"; };
+		1E06875123980C9D00594917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E06875623980C9D00594917 /* iSystantMonitorFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSystantMonitorFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E06875D23980C9D00594917 /* iSystantMonitorFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSystantMonitorFrameworkTests.m; sourceTree = "<group>"; };
+		1E06875F23980C9D00594917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0687DE2398127200594917 /* HLSystemMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSystemMonitor.m; sourceTree = "<group>"; };
+		1E0687E02398127200594917 /* HLDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeviceInformation.m; sourceTree = "<group>"; };
+		1E0687E12398127200594917 /* HLDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDeviceInformation.h; sourceTree = "<group>"; };
+		1E0687E32398127200594917 /* HLMemoryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMemoryMonitor.m; sourceTree = "<group>"; };
+		1E0687E42398127200594917 /* HLMemoryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMemoryMonitor.h; sourceTree = "<group>"; };
+		1E0687E62398127200594917 /* HLBatteryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBatteryMonitor.h; sourceTree = "<group>"; };
+		1E0687E72398127200594917 /* HLBatteryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBatteryMonitor.m; sourceTree = "<group>"; };
+		1E0687E82398127200594917 /* HLSystemMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSystemMonitor.h; sourceTree = "<group>"; };
+		1E0687E92398127200594917 /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
+		1E0687EB2398127200594917 /* cpuFreq.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = cpuFreq.s; sourceTree = "<group>"; };
+		1E0687EC2398127200594917 /* HLCPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCPUMonitor.m; sourceTree = "<group>"; };
+		1E0687ED2398127200594917 /* HLCPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCPUMonitor.h; sourceTree = "<group>"; };
+		1E0687EF2398127200594917 /* HLNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNetworkMonitor.h; sourceTree = "<group>"; };
+		1E0687F02398127200594917 /* HLNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNetworkMonitor.m; sourceTree = "<group>"; };
 		1E0F65A8238D779700666CCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1E0F65A9238D779700666CCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1E0F65AD238D78E600666CCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -106,20 +218,6 @@
 		1EFD7ADF238C29DA0072CE6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1EFD7AE2238C2B2D0072CE6C /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1EFD7AE3238C2B2D0072CE6C /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1EFD7AE6238C2C200072CE6C /* HLSystemMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSystemMonitor.m; sourceTree = "<group>"; };
-		1EFD7AE8238C2C200072CE6C /* HLDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDeviceInformation.m; sourceTree = "<group>"; };
-		1EFD7AE9238C2C200072CE6C /* HLDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDeviceInformation.h; sourceTree = "<group>"; };
-		1EFD7AEB238C2C200072CE6C /* HLMemoryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMemoryMonitor.m; sourceTree = "<group>"; };
-		1EFD7AEC238C2C200072CE6C /* HLMemoryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMemoryMonitor.h; sourceTree = "<group>"; };
-		1EFD7AEE238C2C200072CE6C /* HLBatteryMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBatteryMonitor.h; sourceTree = "<group>"; };
-		1EFD7AEF238C2C200072CE6C /* HLBatteryMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBatteryMonitor.m; sourceTree = "<group>"; };
-		1EFD7AF0238C2C200072CE6C /* HLSystemMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSystemMonitor.h; sourceTree = "<group>"; };
-		1EFD7AF1238C2C200072CE6C /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
-		1EFD7AF3238C2C200072CE6C /* cpuFreq.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = cpuFreq.s; sourceTree = "<group>"; };
-		1EFD7AF4238C2C200072CE6C /* HLCPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCPUMonitor.m; sourceTree = "<group>"; };
-		1EFD7AF5238C2C200072CE6C /* HLCPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCPUMonitor.h; sourceTree = "<group>"; };
-		1EFD7AF7238C2C200072CE6C /* HLNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNetworkMonitor.h; sourceTree = "<group>"; };
-		1EFD7AF8238C2C200072CE6C /* HLNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNetworkMonitor.m; sourceTree = "<group>"; };
 		1EFD7B02238C2DFE0072CE6C /* HLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLProgressView.h; sourceTree = "<group>"; };
 		1EFD7B04238C2DFE0072CE6C /* HLFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLFeedback.m; sourceTree = "<group>"; };
 		1EFD7B05238C2DFE0072CE6C /* HLFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLFeedback.h; sourceTree = "<group>"; };
@@ -187,6 +285,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1E0687312398069D00594917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0687362398069E00594917 /* NotificationCenter.framework in Frameworks */,
+				1E06878D23980CE200594917 /* iSystantMonitorFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06874B23980C9D00594917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06879623980E3600594917 /* CoreLocation.framework in Frameworks */,
+				1E06879223980D2600594917 /* libresolv.tbd in Frameworks */,
+				1E06879423980D4100594917 /* SystemConfiguration.framework in Frameworks */,
+				1E06879323980D2F00594917 /* libSystem.tbd in Frameworks */,
+				1E06879723980E6F00594917 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06875323980C9D00594917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06875723980C9D00594917 /* iSystantMonitorFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1E29E8F4238A4BC3004361BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +325,7 @@
 				1E8CDE60238C285800255D53 /* MessageUI.framework in Frameworks */,
 				1EFD7ADE238C29C50072CE6C /* libSystem.tbd in Frameworks */,
 				1EFD7AE0238C29DA0072CE6C /* SystemConfiguration.framework in Frameworks */,
+				1E06876323980C9D00594917 /* iSystantMonitorFramework.framework in Frameworks */,
 				1EFD7ADD238C29BE0072CE6C /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,10 +342,105 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1E0687372398069E00594917 /* sysmonitorTodayExt */ = {
+			isa = PBXGroup;
+			children = (
+				1E06874723980A5800594917 /* iSystant LiteDebug.entitlements */,
+				1E0687382398069E00594917 /* TodayViewController.h */,
+				1E0687392398069E00594917 /* TodayViewController.m */,
+				1E06873B2398069E00594917 /* MainInterface.storyboard */,
+				1E06873E2398069E00594917 /* Info.plist */,
+			);
+			path = sysmonitorTodayExt;
+			sourceTree = "<group>";
+		};
+		1E06874F23980C9D00594917 /* iSystantMonitorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687DD2398127200594917 /* HLSystemMonitor */,
+				1E06875023980C9D00594917 /* iSystantMonitorFramework.h */,
+				1E06875123980C9D00594917 /* Info.plist */,
+			);
+			path = iSystantMonitorFramework;
+			sourceTree = "<group>";
+		};
+		1E06875C23980C9D00594917 /* iSystantMonitorFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E06875D23980C9D00594917 /* iSystantMonitorFrameworkTests.m */,
+				1E06875F23980C9D00594917 /* Info.plist */,
+			);
+			path = iSystantMonitorFrameworkTests;
+			sourceTree = "<group>";
+		};
+		1E0687DD2398127200594917 /* HLSystemMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687DE2398127200594917 /* HLSystemMonitor.m */,
+				1E0687DF2398127200594917 /* HLDeviceInformation */,
+				1E0687E22398127200594917 /* HLMemoryMonitor */,
+				1E0687E52398127200594917 /* HLBatteryMonitor */,
+				1E0687E82398127200594917 /* HLSystemMonitor.h */,
+				1E0687E92398127200594917 /* devices.json */,
+				1E0687EA2398127200594917 /* HLCPUMonitor */,
+				1E0687EE2398127200594917 /* HLNetworkMonitor */,
+			);
+			path = HLSystemMonitor;
+			sourceTree = "<group>";
+		};
+		1E0687DF2398127200594917 /* HLDeviceInformation */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687E02398127200594917 /* HLDeviceInformation.m */,
+				1E0687E12398127200594917 /* HLDeviceInformation.h */,
+			);
+			path = HLDeviceInformation;
+			sourceTree = "<group>";
+		};
+		1E0687E22398127200594917 /* HLMemoryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687E32398127200594917 /* HLMemoryMonitor.m */,
+				1E0687E42398127200594917 /* HLMemoryMonitor.h */,
+			);
+			path = HLMemoryMonitor;
+			sourceTree = "<group>";
+		};
+		1E0687E52398127200594917 /* HLBatteryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687E62398127200594917 /* HLBatteryMonitor.h */,
+				1E0687E72398127200594917 /* HLBatteryMonitor.m */,
+			);
+			path = HLBatteryMonitor;
+			sourceTree = "<group>";
+		};
+		1E0687EA2398127200594917 /* HLCPUMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687EB2398127200594917 /* cpuFreq.s */,
+				1E0687EC2398127200594917 /* HLCPUMonitor.m */,
+				1E0687ED2398127200594917 /* HLCPUMonitor.h */,
+			);
+			path = HLCPUMonitor;
+			sourceTree = "<group>";
+		};
+		1E0687EE2398127200594917 /* HLNetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1E0687EF2398127200594917 /* HLNetworkMonitor.h */,
+				1E0687F02398127200594917 /* HLNetworkMonitor.m */,
+			);
+			path = HLNetworkMonitor;
+			sourceTree = "<group>";
+		};
 		1E29E8EE238A4BC3004361BC = {
 			isa = PBXGroup;
 			children = (
 				1E29E8F9238A4BC3004361BC /* kajslkd */,
+				1E0687372398069E00594917 /* sysmonitorTodayExt */,
+				1E06874F23980C9D00594917 /* iSystantMonitorFramework */,
+				1E06875C23980C9D00594917 /* iSystantMonitorFrameworkTests */,
 				1E29E8F8238A4BC3004361BC /* Products */,
 				10F3F79276D2855AB20ACF44 /* Pods */,
 				C9AAD2A6B915A8D47999A499 /* Frameworks */,
@@ -228,6 +451,9 @@
 			isa = PBXGroup;
 			children = (
 				1E29E8F7238A4BC3004361BC /* iSystant Lite.app */,
+				1E0687342398069D00594917 /* iSystant Lite.appex */,
+				1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */,
+				1E06875623980C9D00594917 /* iSystantMonitorFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,6 +461,7 @@
 		1E29E8F9238A4BC3004361BC /* kajslkd */ = {
 			isa = PBXGroup;
 			children = (
+				1E06874823980ACB00594917 /* iSystant LiteDebug.entitlements */,
 				1E4B61A12396A491005C6E48 /* iSystant Lite.entitlements */,
 				1EFD7B65238C2E780072CE6C /* PrefixHeader.pch */,
 				1EEB0D67238C32C2004E9C28 /* theme.txt */,
@@ -245,7 +472,6 @@
 				1EFD7B2C238C2DFE0072CE6C /* Common */,
 				1EFD7B0A238C2DFE0072CE6C /* Class */,
 				1EFD7B01238C2DFE0072CE6C /* Vendor */,
-				1EFD7AE5238C2C200072CE6C /* HLSystemMonitor */,
 				1E29E903238A4BC3004361BC /* Main.storyboard */,
 				1E29E906238A4BC5004361BC /* Assets.xcassets */,
 				1E29E908238A4BC5004361BC /* LaunchScreen.storyboard */,
@@ -254,67 +480,6 @@
 				1E0F65AE238D78E600666CCA /* Localizable.strings */,
 			);
 			path = kajslkd;
-			sourceTree = "<group>";
-		};
-		1EFD7AE5238C2C200072CE6C /* HLSystemMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AE6238C2C200072CE6C /* HLSystemMonitor.m */,
-				1EFD7AE7238C2C200072CE6C /* HLDeviceInformation */,
-				1EFD7AEA238C2C200072CE6C /* HLMemoryMonitor */,
-				1EFD7AED238C2C200072CE6C /* HLBatteryMonitor */,
-				1EFD7AF0238C2C200072CE6C /* HLSystemMonitor.h */,
-				1EFD7AF1238C2C200072CE6C /* devices.json */,
-				1EFD7AF2238C2C200072CE6C /* HLCPUMonitor */,
-				1EFD7AF6238C2C200072CE6C /* HLNetworkMonitor */,
-			);
-			path = HLSystemMonitor;
-			sourceTree = "<group>";
-		};
-		1EFD7AE7238C2C200072CE6C /* HLDeviceInformation */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AE8238C2C200072CE6C /* HLDeviceInformation.m */,
-				1EFD7AE9238C2C200072CE6C /* HLDeviceInformation.h */,
-			);
-			path = HLDeviceInformation;
-			sourceTree = "<group>";
-		};
-		1EFD7AEA238C2C200072CE6C /* HLMemoryMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AEB238C2C200072CE6C /* HLMemoryMonitor.m */,
-				1EFD7AEC238C2C200072CE6C /* HLMemoryMonitor.h */,
-			);
-			path = HLMemoryMonitor;
-			sourceTree = "<group>";
-		};
-		1EFD7AED238C2C200072CE6C /* HLBatteryMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AEE238C2C200072CE6C /* HLBatteryMonitor.h */,
-				1EFD7AEF238C2C200072CE6C /* HLBatteryMonitor.m */,
-			);
-			path = HLBatteryMonitor;
-			sourceTree = "<group>";
-		};
-		1EFD7AF2238C2C200072CE6C /* HLCPUMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AF3238C2C200072CE6C /* cpuFreq.s */,
-				1EFD7AF4238C2C200072CE6C /* HLCPUMonitor.m */,
-				1EFD7AF5238C2C200072CE6C /* HLCPUMonitor.h */,
-			);
-			path = HLCPUMonitor;
-			sourceTree = "<group>";
-		};
-		1EFD7AF6238C2C200072CE6C /* HLNetworkMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				1EFD7AF7238C2C200072CE6C /* HLNetworkMonitor.h */,
-				1EFD7AF8238C2C200072CE6C /* HLNetworkMonitor.m */,
-			);
-			path = HLNetworkMonitor;
 			sourceTree = "<group>";
 		};
 		1EFD7B01238C2DFE0072CE6C /* Vendor */ = {
@@ -479,13 +644,88 @@
 				1E8CDE55238C27F400255D53 /* libresolv.tbd */,
 				1E8CDE53238C27EC00255D53 /* CoreLocation.framework */,
 				C3C6CC828990E92AF28DDFE8 /* libPods-kajslkd.a */,
+				1E0687352398069E00594917 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1E06874923980C9D00594917 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0687FD2398127300594917 /* HLNetworkMonitor.h in Headers */,
+				1E0687FF2398129700594917 /* HLSystemMonitor.m in Headers */,
+				1E0687FC2398127300594917 /* HLCPUMonitor.h in Headers */,
+				1E06876023980C9D00594917 /* iSystantMonitorFramework.h in Headers */,
+				1E0687F32398127300594917 /* HLDeviceInformation.h in Headers */,
+				1E0687F52398127300594917 /* HLMemoryMonitor.h in Headers */,
+				1E0687F62398127300594917 /* HLBatteryMonitor.h in Headers */,
+				1E0687F82398127300594917 /* HLSystemMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1E0687332398069D00594917 /* sysmonitorTodayExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0687452398069E00594917 /* Build configuration list for PBXNativeTarget "sysmonitorTodayExt" */;
+			buildPhases = (
+				1E0687302398069D00594917 /* Sources */,
+				1E0687312398069D00594917 /* Frameworks */,
+				1E0687322398069D00594917 /* Resources */,
+				1E06879123980CE200594917 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E06879023980CE200594917 /* PBXTargetDependency */,
+			);
+			name = sysmonitorTodayExt;
+			productName = sysmonitorTodayExt;
+			productReference = 1E0687342398069D00594917 /* iSystant Lite.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1E06874D23980C9D00594917 /* iSystantMonitorFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E06876523980C9D00594917 /* Build configuration list for PBXNativeTarget "iSystantMonitorFramework" */;
+			buildPhases = (
+				1E06874923980C9D00594917 /* Headers */,
+				1E06874A23980C9D00594917 /* Sources */,
+				1E06874B23980C9D00594917 /* Frameworks */,
+				1E06874C23980C9D00594917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSystantMonitorFramework;
+			productName = iSystantMonitorFramework;
+			productReference = 1E06874E23980C9D00594917 /* iSystantMonitorFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E06875523980C9D00594917 /* iSystantMonitorFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E06876823980C9D00594917 /* Build configuration list for PBXNativeTarget "iSystantMonitorFrameworkTests" */;
+			buildPhases = (
+				1E06875223980C9D00594917 /* Sources */,
+				1E06875323980C9D00594917 /* Frameworks */,
+				1E06875423980C9D00594917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E06875923980C9D00594917 /* PBXTargetDependency */,
+				1E06875B23980C9D00594917 /* PBXTargetDependency */,
+			);
+			name = iSystantMonitorFrameworkTests;
+			productName = iSystantMonitorFrameworkTests;
+			productReference = 1E06875623980C9D00594917 /* iSystantMonitorFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1E29E8F6238A4BC3004361BC /* kajslkd */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E29E910238A4BC5004361BC /* Build configuration list for PBXNativeTarget "kajslkd" */;
@@ -496,10 +736,13 @@
 				1E29E8F5238A4BC3004361BC /* Resources */,
 				78BA0A194D6E0FC38A97AF39 /* [CP] Copy Pods Resources */,
 				1E8CDE21238C233400255D53 /* Embed Frameworks */,
+				1E0687422398069E00594917 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1E0687402398069E00594917 /* PBXTargetDependency */,
+				1E06876223980C9D00594917 /* PBXTargetDependency */,
 			);
 			name = kajslkd;
 			productName = kajslkd;
@@ -515,6 +758,16 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = iSystant;
 				TargetAttributes = {
+					1E0687332398069D00594917 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1E06874D23980C9D00594917 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1E06875523980C9D00594917 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 1E29E8F6238A4BC3004361BC;
+					};
 					1E29E8F6238A4BC3004361BC = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -535,11 +788,37 @@
 			projectRoot = "";
 			targets = (
 				1E29E8F6238A4BC3004361BC /* kajslkd */,
+				1E0687332398069D00594917 /* sysmonitorTodayExt */,
+				1E06874D23980C9D00594917 /* iSystantMonitorFramework */,
+				1E06875523980C9D00594917 /* iSystantMonitorFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1E0687322398069D00594917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06873D2398069E00594917 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06874C23980C9D00594917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0687F92398127300594917 /* devices.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06875423980C9D00594917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1E29E8F5238A4BC3004361BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -549,7 +828,6 @@
 				1EEB0D68238C32C2004E9C28 /* theme.txt in Resources */,
 				1E29E907238A4BC5004361BC /* Assets.xcassets in Resources */,
 				1E29E905238A4BC3004361BC /* Main.storyboard in Resources */,
-				1EFD7AFD238C2C200072CE6C /* devices.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,13 +876,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E0687302398069D00594917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06873A2398069E00594917 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06874A23980C9D00594917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0687F72398127300594917 /* HLBatteryMonitor.m in Sources */,
+				1E0687FB2398127300594917 /* HLCPUMonitor.m in Sources */,
+				1E0687FA2398127300594917 /* cpuFreq.s in Sources */,
+				1E0687FE2398127300594917 /* HLNetworkMonitor.m in Sources */,
+				1E0687F22398127300594917 /* HLDeviceInformation.m in Sources */,
+				1E0687F12398127300594917 /* HLSystemMonitor.m in Sources */,
+				1E0687F42398127300594917 /* HLMemoryMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E06875223980C9D00594917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06875E23980C9D00594917 /* iSystantMonitorFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1E29E8F3238A4BC3004361BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1EFD7B51238C2DFE0072CE6C /* HLDeviceCell.m in Sources */,
-				1EFD7AFE238C2C200072CE6C /* cpuFreq.s in Sources */,
-				1EFD7AFA238C2C200072CE6C /* HLDeviceInformation.m in Sources */,
 				1EFD7B64238C2DFE0072CE6C /* HLTabBarController.m in Sources */,
 				1E29E8FC238A4BC3004361BC /* AppDelegate.m in Sources */,
 				1EFD7B4D238C2DFE0072CE6C /* HLNetworkCell.m in Sources */,
@@ -626,27 +932,58 @@
 				1EFD7B5A238C2DFE0072CE6C /* UIViewController+Extension.m in Sources */,
 				1EFD7B49238C2DFE0072CE6C /* HLLabel.m in Sources */,
 				1EFD7B4F238C2DFE0072CE6C /* HLMemoryCell.m in Sources */,
-				1EFD7AFC238C2C200072CE6C /* HLBatteryMonitor.m in Sources */,
 				1EFD7B5B238C2DFE0072CE6C /* UIColor+Extension.m in Sources */,
 				1EFD7B59238C2DFE0072CE6C /* HLDeviceViewController.m in Sources */,
 				1EFD7B62238C2DFE0072CE6C /* HLBaseNavViewController.m in Sources */,
-				1EFD7AFB238C2C200072CE6C /* HLMemoryMonitor.m in Sources */,
 				1EFD7B57238C2DFE0072CE6C /* HLCPUDetailViewController.m in Sources */,
-				1EFD7AFF238C2C200072CE6C /* HLCPUMonitor.m in Sources */,
 				1EFD7B4C238C2DFE0072CE6C /* HLDetailTableViewCell.m in Sources */,
 				1EFD7AE4238C2B2D0072CE6C /* SceneDelegate.m in Sources */,
-				1EFD7AF9238C2C200072CE6C /* HLSystemMonitor.m in Sources */,
 				1EFD7B60238C2DFE0072CE6C /* HLBaseTableViewController.m in Sources */,
 				1EFD7B5F238C2DFE0072CE6C /* HLPrivacyPolicy.m in Sources */,
 				1EFD7B5D238C2DFE0072CE6C /* CALayer+Extension.m in Sources */,
-				1EFD7B00238C2C200072CE6C /* HLNetworkMonitor.m in Sources */,
 				1EFD7B63238C2DFE0072CE6C /* HLBaseTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1E0687402398069E00594917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0687332398069D00594917 /* sysmonitorTodayExt */;
+			targetProxy = 1E06873F2398069E00594917 /* PBXContainerItemProxy */;
+		};
+		1E06875923980C9D00594917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E06874D23980C9D00594917 /* iSystantMonitorFramework */;
+			targetProxy = 1E06875823980C9D00594917 /* PBXContainerItemProxy */;
+		};
+		1E06875B23980C9D00594917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E29E8F6238A4BC3004361BC /* kajslkd */;
+			targetProxy = 1E06875A23980C9D00594917 /* PBXContainerItemProxy */;
+		};
+		1E06876223980C9D00594917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E06874D23980C9D00594917 /* iSystantMonitorFramework */;
+			targetProxy = 1E06876123980C9D00594917 /* PBXContainerItemProxy */;
+		};
+		1E06879023980CE200594917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E06874D23980C9D00594917 /* iSystantMonitorFramework */;
+			targetProxy = 1E06878F23980CE200594917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		1E06873B2398069E00594917 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E06873C2398069E00594917 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		1E0F65AE238D78E600666CCA /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -678,6 +1015,141 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1E0687432398069E00594917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "sysmonitorTodayExt/iSystant LiteDebug.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				INFOPLIST_FILE = sysmonitorTodayExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite.sysmonitorTodayExt";
+				PRODUCT_NAME = "iSystant Lite";
+				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-dev";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E0687442398069E00594917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				INFOPLIST_FILE = sysmonitorTodayExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite.sysmonitorTodayExt";
+				PRODUCT_NAME = "iSystant Lite";
+				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-appstore";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E06876623980C9D00594917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iSystantMonitorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E06876723980C9D00594917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iSystantMonitorFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E06876923980C9D00594917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				INFOPLIST_FILE = iSystantMonitorFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSystant Lite.app/iSystant Lite";
+			};
+			name = Debug;
+		};
+		1E06876A23980C9D00594917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GV75LUM29;
+				INFOPLIST_FILE = iSystantMonitorFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSystant Lite.app/iSystant Lite";
+			};
+			name = Release;
+		};
 		1E29E90E238A4BC5004361BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -795,7 +1267,7 @@
 			baseConfigurationReference = 2922213F4CFCC099DF02FB1C /* Pods-kajslkd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "kajslkd/iSystant Lite.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "kajslkd/iSystant LiteDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8GV75LUM29;
@@ -843,6 +1315,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1E0687452398069E00594917 /* Build configuration list for PBXNativeTarget "sysmonitorTodayExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0687432398069E00594917 /* Debug */,
+				1E0687442398069E00594917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E06876523980C9D00594917 /* Build configuration list for PBXNativeTarget "iSystantMonitorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E06876623980C9D00594917 /* Debug */,
+				1E06876723980C9D00594917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E06876823980C9D00594917 /* Build configuration list for PBXNativeTarget "iSystantMonitorFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E06876923980C9D00594917 /* Debug */,
+				1E06876A23980C9D00594917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1E29E8F2238A4BC3004361BC /* Build configuration list for PBXProject "kajslkd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

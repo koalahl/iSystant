@@ -38,6 +38,16 @@
                ReferencedContainer = "container:kajslkd.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1E06875523980C9D00594917"
+               BuildableName = "iSystantMonitorFrameworkTests.xctest"
+               BlueprintName = "iSystantMonitorFrameworkTests"
+               ReferencedContainer = "container:kajslkd.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

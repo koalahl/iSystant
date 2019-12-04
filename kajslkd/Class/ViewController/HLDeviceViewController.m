@@ -18,14 +18,14 @@
 #import "HLNetworkDetailViewController.h"
 
 
-@interface HLDeviceViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface HLDeviceViewController ()<UITableViewDataSource,UITableViewDelegate,CLLocationManagerDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UILabel *phoneName;
 @property (nonatomic, strong) UIButton *settingBtn;
 
 // ios13 获取wifi信息，需要先获取定位权限
-@property (nonatomic, strong) CLLocationManager *manager;
+@property (nonatomic, strong) CLLocationManager *locationMagager;
 @property (nonatomic, strong) HLCellViewModel *cellViewModel;
 @property (nonatomic, strong) NSArray *cellViewModels;
 
@@ -41,7 +41,7 @@
     [HLSystemMonitor startMemoryMonitor:[HLSystemMonitor sharedMonitor].memoryRefreshInterval];
     
     [self startNetworkMonitor];
-//    [self requestLocationPrivacy];
+    [self requestLocationPrivacy];
     [self buildCellsDatas];
     [self configSubViews];
 }
@@ -178,24 +178,35 @@
 
 #pragma mark - Private
 - (void)requestLocationPrivacy {
+    if (@available(iOS 13, *)) {
+         
+         if (CLLocationManager.authorizationStatus == kCLAuthorizationStatusAuthorizedWhenInUse) {//开启了权限，直接搜索
+             
+             
+         } else if (CLLocationManager.authorizationStatus == kCLAuthorizationStatusDenied) {//如果用户没给权限，则提示
+             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"定位权限关闭提示" message:@"你关闭了定位权限，导致无法使用WIFI功能" preferredStyle:UIAlertControllerStyleAlert];
+             [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
+             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:YES completion:nil];
+             
+         } else {//请求权限
+             [self.locationMagager requestWhenInUseAuthorization];
+         }
+    }
+   
+}
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
     
-    if (@available(iOS 13.0, *)) {
-        //用户明确拒绝，可以弹窗提示用户到设置中手动打开权限
-        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied) {
-            NSLog(@"User has explicitly denied authorization for this application, or location services are disabled in Settings.");
-            //使用下面接口可以打开当前应用的设置页面
-            //[[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-            return ;
-        }
-        self.manager = [[CLLocationManager alloc] init];
-        if(![CLLocationManager locationServicesEnabled] || [CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined){
-            //弹框提示用户是否开启位置权限
-            [self.manager requestWhenInUseAuthorization];
-            usleep(500);
-            [self startNetworkMonitor];
-        }
+    if (status == kCLAuthorizationStatusAuthorizedWhenInUse) {
+        [self startNetworkMonitor];
     }
 }
 
-
+- (CLLocationManager *)locationMagager {
+    if (!_locationMagager) {
+        _locationMagager = [[CLLocationManager alloc] init];
+        _locationMagager.delegate = self;
+    }
+    return _locationMagager;
+}
 @end
