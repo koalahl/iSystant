@@ -1033,6 +1033,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-dev";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Debug;
 		};
@@ -1053,6 +1054,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-appstore";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Release;
 		};
@@ -1082,6 +1084,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1092,10 +1095,10 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8GV75LUM29;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1108,9 +1111,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1119,7 +1125,7 @@
 		1E06876923980C9D00594917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8GV75LUM29;
 				INFOPLIST_FILE = iSystantMonitorFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1129,6 +1135,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSystant Lite.app/iSystant Lite";
 			};
@@ -1137,7 +1145,7 @@
 		1E06876A23980C9D00594917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8GV75LUM29;
 				INFOPLIST_FILE = iSystantMonitorFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1147,6 +1155,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = isystant.iSystantMonitorFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSystant Lite.app/iSystant Lite";
 			};
@@ -1286,6 +1296,7 @@
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-dev";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Debug;
 		};
@@ -1311,6 +1322,7 @@
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite_appstore";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Release;
 		};
