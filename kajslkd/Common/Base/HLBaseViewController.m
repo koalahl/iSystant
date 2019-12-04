@@ -35,6 +35,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    BOOL isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"AppInNight"];
+    return isNight?UIStatusBarStyleLightContent:UIStatusBarStyleDefault;
+}
 /*
 #pragma mark - Navigation
 

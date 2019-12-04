@@ -6,9 +6,9 @@
 //  Copyright © 2019 iSystant. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HLBaseViewController.h"
 
-@interface HLDeviceViewController : UIViewController
+@interface HLDeviceViewController : HLBaseViewController
 
 
 @end

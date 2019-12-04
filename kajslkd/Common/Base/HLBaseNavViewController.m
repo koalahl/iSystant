@@ -51,4 +51,9 @@
     }
     [super pushViewController:viewController animated:animated];
 }
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    BOOL isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"AppInNight"];
+    return isNight?UIStatusBarStyleLightContent:UIStatusBarStyleDefault;
+}
 @end

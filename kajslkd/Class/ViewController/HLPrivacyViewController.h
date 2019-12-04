@@ -6,8 +6,8 @@
 //  Copyright © 2018 HanLiu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HLBaseViewController.h"
 
-@interface HLPrivacyViewController : UIViewController
+@interface HLPrivacyViewController : HLBaseViewController
 
 @end
