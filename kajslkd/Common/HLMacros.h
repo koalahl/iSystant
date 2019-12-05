@@ -12,7 +12,7 @@
 #define kHLDeviceWidth [UIScreen mainScreen].bounds.size.width
 #define kHLDeviceHeight [UIScreen mainScreen].bounds.size.height
 
-#define KAPPID @"1455066494"
+#define KAPPID @"1490127266"
 
 
 // 屏宽高
