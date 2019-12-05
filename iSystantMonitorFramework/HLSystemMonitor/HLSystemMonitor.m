@@ -43,8 +43,14 @@
             [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:deviceName];
             NSLog(@"%@",[devices objectForKey:deviceName]);
         }
-        else if([deviceName containsString:@"iPad"]){
-            [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:@""];
+        else if([deviceName containsString:@"iPad"]){//如果是模拟器，并且是iPad
+            if ([deviceName containsString:@"iPad Pro"]) {
+                [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:@"iPad Pro 3rd 12.9"];
+            }else if ([deviceName containsString:@"iPad Mini"]) {
+                [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:@"iPad Mini 2019"];
+            }else if ([deviceName containsString:@"iPad Air"]) {
+                [HLDeviceInformation sharedInstance].deviceDict = [devices objectForKey:@"iPad Air 2019"];
+            }
         }
     }
     

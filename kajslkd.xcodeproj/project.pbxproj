@@ -1005,6 +1005,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8GV75LUM29;
 				INFOPLIST_FILE = sysmonitorTodayExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1016,6 +1017,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-dev";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Debug;
@@ -1028,6 +1030,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 8GV75LUM29;
 				INFOPLIST_FILE = sysmonitorTodayExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1039,6 +1042,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-todayExt-appstore";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Release;
@@ -1272,7 +1276,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/PrefixHeader.pch";
 				INFOPLIST_FILE = kajslkd/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1281,7 +1285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite";
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite-dev";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Debug;
@@ -1299,7 +1303,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/PrefixHeader.pch";
 				INFOPLIST_FILE = kajslkd/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1308,7 +1312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hl1987.app.isystant-lite";
 				PRODUCT_NAME = "iSystant Lite";
 				PROVISIONING_PROFILE_SPECIFIER = "provisionprofile_isystant-lite_appstore";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
 			name = Release;
