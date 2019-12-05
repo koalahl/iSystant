@@ -130,7 +130,7 @@
 "Motion Processor"  = "协处理器";
 "CPU Basic Info"    = "基本信息";
 "BEENCHMARK"        = "BEENCHMARK评测分数";
-
+"Current Frequency" = "实时频率";
 //========内存=========//
 "Memory Type"       = "内存型号";
 "Read/Write Freq"   = "读写频率";

@@ -35,7 +35,7 @@
 }
 
 - (void)configData {
-//    NSString *cpufreq = [HLCPUMonitor monitor].realtimeCpuFreq;
+    NSString *cpufreq = [HLCPUMonitor monitor].realtimeCpuFreq;
 //    NSLog(@"cpufreq = %@",cpufreq);
     NSString *cpuModel      = [HLDeviceInformation sharedInstance].deviceDict[@"CPU"];
     NSString *cpuArch       = [HLDeviceInformation sharedInstance].deviceDict[@"CPU Arch"];;
@@ -59,6 +59,7 @@
                           @{@"name":HLLocalized(@"Arch"),@"value":cpuArch},//读写频率
                           @{@"name":HLLocalized(@"Cores"),@"value":cpuCores},
                           @{@"name":HLLocalized(@"Clock Frequency"),@"value":cpuMaxFreq},
+                          @{@"name":HLLocalized(@"Current Frequency"),@"value":cpufreq},
                           @{@"name":HLLocalized(@"L1Cache"),@"value":L1Cache},
                           @{@"name":HLLocalized(@"L2Cache"),@"value":L2Cache},
                           @{@"name":HLLocalized(@"L3Cache"),@"value":L3Cache},

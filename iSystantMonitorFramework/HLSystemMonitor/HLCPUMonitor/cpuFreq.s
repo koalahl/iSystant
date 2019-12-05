@@ -12,7 +12,7 @@
 .globl _freqTest
 
 _freqTest:
-/*
+
 STP x4, x5, [sp, #16 * 0]
 STP x6, x7, [sp, #16 * 1]
 STP x8, x9, [sp, #16 * 2]
@@ -174,4 +174,4 @@ subs    x0, x0, #1
 bne     freqTest_LOOP
 
 RET
-*/
+
