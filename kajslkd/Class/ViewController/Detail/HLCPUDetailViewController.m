@@ -35,6 +35,8 @@
 }
 
 - (void)configData {
+//    NSString *cpufreq = [HLCPUMonitor monitor].realtimeCpuFreq;
+//    NSLog(@"cpufreq = %@",cpufreq);
     NSString *cpuModel      = [HLDeviceInformation sharedInstance].deviceDict[@"CPU"];
     NSString *cpuArch       = [HLDeviceInformation sharedInstance].deviceDict[@"CPU Arch"];;
     NSString *cpuCores      = [NSString stringWithFormat:@"%@ %@", @([HLCPUMonitor monitor].cpuNumber),NSLocalizedString(@"core", nil)];
