@@ -20,11 +20,7 @@
     [MSAppCenter start:@"b7437d8d-b9c3-4453-82b7-7781c73215d1" withServices:@[[MSAnalytics class],[MSCrashes class]]];
     
     //2.设置主题
-    [[DKColorTable sharedColorTable] setFile:@"theme.txt"];
-    BOOL isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"AppInNight"];
-
-    DKNightVersionManager * manager = [DKNightVersionManager sharedManager];
-    manager.themeVersion = isNight ? DKThemeVersionNight:DKThemeVersionNormal;
+    [self configThemeModeTraitCollection];
     //4.初始化电池健康度
     NSString *batteryHeathy = [UserDefaultSuite objectForKey:@"batteryHeath"];
     if (batteryHeathy == 0) {
@@ -42,7 +38,31 @@
     return YES;
 }
 
+- (void)configThemeModeTraitCollection {
+    [[DKColorTable sharedColorTable] setFile:@"theme.txt"];
+    BOOL isNight = [[NSUserDefaults standardUserDefaults] boolForKey:@"AppInNight"];
 
+    DKNightVersionManager * manager = [DKNightVersionManager sharedManager];
+
+    if (@available(iOS 13.0, *)) {
+        UIUserInterfaceStyle mode = UITraitCollection.currentTraitCollection.userInterfaceStyle;
+        if (mode == UIUserInterfaceStyleDark) {
+            NSLog(@"深色模式");
+            [manager nightFalling];
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"AppInNight"];
+
+        } else if (mode == UIUserInterfaceStyleLight) {
+            NSLog(@"浅色模式");
+            [manager dawnComing];
+            [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"AppInNight"];
+
+        } else {
+            NSLog(@"未知模式");
+        }
+    }else {
+        manager.themeVersion = isNight ? DKThemeVersionNight:DKThemeVersionNormal;
+    }
+}
 #pragma mark - UISceneSession lifecycle
 
 
