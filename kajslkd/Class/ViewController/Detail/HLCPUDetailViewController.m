@@ -59,7 +59,7 @@
                           @{@"name":HLLocalized(@"Arch"),@"value":cpuArch},//读写频率
                           @{@"name":HLLocalized(@"Cores"),@"value":cpuCores},
                           @{@"name":HLLocalized(@"Clock Frequency"),@"value":cpuMaxFreq},
-                          @{@"name":HLLocalized(@"Current Frequency"),@"value":cpufreq},
+//                          @{@"name":HLLocalized(@"Current Frequency"),@"value":cpufreq},
                           @{@"name":HLLocalized(@"L1Cache"),@"value":L1Cache},
                           @{@"name":HLLocalized(@"L2Cache"),@"value":L2Cache},
                           @{@"name":HLLocalized(@"L3Cache"),@"value":L3Cache},

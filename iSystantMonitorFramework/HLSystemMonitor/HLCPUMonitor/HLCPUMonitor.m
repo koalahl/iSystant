@@ -17,20 +17,20 @@ static double GetCPUFrequency(void)
 
     int sum = 0;
 
-    for(int i = 0; i < 500; i++)
-    {
-        times[i] = [[NSProcessInfo processInfo] systemUptime];
-        sum += freqTest(10000);
-        times[i] = [[NSProcessInfo processInfo] systemUptime] - times[i];
-    }
-
+//    for(int i = 0; i < 500; i++)
+//    {
+//        times[i] = [[NSProcessInfo processInfo] systemUptime];
+//        sum += freqTest(10000);
+//        times[i] = [[NSProcessInfo processInfo] systemUptime] - times[i];
+//    }
+//
     NSTimeInterval time = times[0];
-    for(int i = 1; i < 500; i++)
-    {
-        if(time > times[i])
-            time = times[i];
-    }
-
+//    for(int i = 1; i < 500; i++)
+//    {
+//        if(time > times[i])
+//            time = times[i];
+//    }
+//
     double freq = 1300000.0 / time;
     //double freq = 16770000.0f;
     return freq;
