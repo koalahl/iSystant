@@ -13,12 +13,9 @@ It's a fully iOS app with today extension, dark/light mode.
 
 
 
-<div style="width:375px; height:812px">
-    ![](/resource/0x0ss-P3.jpg)
-</div>
+![](/resource/0x0ss-P3.jpg)
 
-<div style="width:375px; height:812px">
-    ![](/resource/0x0ss-P3_dark.jpg)
-</div>
+![](/resource/0x0ss-P3_dark.jpg)
+
 
 
