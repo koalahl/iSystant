@@ -11,7 +11,14 @@ It's a fully iOS app with today extension, dark/light mode.
 - Storage: free storage volume， used volume.
 - Battery life: real rest battery volume.
 
-![](/resource/0x0ss-P3.jpg =414x818)
 
 
-![](/resource/0x0ss-P3_dark.jpg =414x818)
+<div style="width:375px; height:812px">
+    ![](/resource/0x0ss-P3.jpg)
+</div>
+
+<div style="width:375px; height:812px">
+    ![](/resource/0x0ss-P3_dark.jpg)
+</div>
+
+
